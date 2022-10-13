@@ -1,0 +1,81 @@
+/*=============================================
+=                Typography                   =
+=============================================*/
+
+/* Font families */
+$resist: "Resist Sans Display", serif; /* 1 */
+
+/* Heading font sizes */
+$h1: 60px; 
+$h2: 50px; 
+$h3: 24px; 
+$h4: 20px;
+$h5: 36px; 
+$h6: 18px; 
+
+/* Font sizes */
+$fs-xl:   24px;
+$fs-lg:   20px;
+$fs-base: 18px;   
+$fs-md:   16px; 
+$fs-sm:   14px; 
+
+
+/* Font weights */
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====  End of Typography  ======*/
+
+/*=============================================
+=                  Colors                     =
+=============================================*/
+
+/* Main Colors */
+$blue: #054FD6;
+$white: #fff;
+$yellow: #FFC229;
+$black: #000000;
+
+$transparent: rgba(255, 255, 255, 0.2);
+
+/* Secondary colors */
+$green: #45CC63;
+$grey: #E9E9E9;
+$light-grey: #F5F5F5;
+$dark-grey: #4B4B4B;
+$light-blue: #215ED8;
+$dark-blue: #00004F;
+
+
+// /* Utility colors */
+$red: #FF1414;
+
+/*=====  End of Colors  ======*/
+
+/*=============================================
+=            Breakpoints                      =
+=============================================*/
+
+$breakpoints: (
+    xxl: 1600px,
+    xl: 1440px,
+    lg: 1024px,
+    md: 768px,
+    sm: 480px,
+    xs: 360px,
+);
+
+/*=====  End of Breakpoints  ======*/
+
+
+$shadows: (
+  base: 0px 4px 11px rgba(157, 157, 157, 0.21)
+);
+
+/*=====  End of Spacing  ======*/

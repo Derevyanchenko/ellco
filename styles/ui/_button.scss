@@ -1,0 +1,64 @@
+.btn {
+    display: inline-block;
+    font-family: var(--body-font-family);
+    line-height: var(--default-line-height);
+    font-size: $fs-base;
+    color: $black;
+    font-weight: $fw-medium;
+    padding: 18px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+
+    &:not(.bg-default) {
+        font-size: 16px;
+        font-weight: $fw-normal;
+    }
+
+    // development ui kit only
+    // margin: 10px 12px;
+
+    &.btn-full {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    &.btn-lg {
+        
+    }
+    &.btn-md {
+        
+    }
+    &.btn-sm {
+        
+    }
+    &.btn-xs {
+        
+    }
+
+    /*----------  Hovers  ----------*/
+    &.bg-yellow {
+        &:hover {
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    &.bg-transparent {
+        &:hover {
+            border-color: $white;
+        }
+    }
+
+    &.bg-sec-grey {
+        &:hover {
+            border-color: $blue;
+        }
+    }
+    
+    
+}

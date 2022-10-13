@@ -1,0 +1,29 @@
+/*=============================================
+=            Mixins                           =
+=============================================*/
+
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+
+@mixin break($size) {
+    @media (max-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+@mixin respond-from($size) {
+    @media (min-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+// @mixin padding($space) {
+//   padding: map-get($spacing, $space);
+// }
+// @mixin margin($space) {
+//   margin: map-get($spacing, $space);
+// }

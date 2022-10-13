@@ -1,0 +1,49 @@
+/*=============================================
+=                   IMPORT FONT              =
+=============================================*/
+@font-face {
+    font-family: "Resist Sans Display";
+    src: url("../fonts/ResistSansText-Medium.eot");
+    src: local("Resist Sans Display Medium"), local("ResistSansText-Medium"),
+        url("../fonts/ResistSansText-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ResistSansText-Medium.woff2") format("woff2"),
+        url("../fonts/ResistSansText-Medium.woff") format("woff"),
+        url("../fonts/ResistSansText-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Resist Sans Display";
+    src: url("../fonts/ResistSansText-Regular.eot");
+    src: local("Resist Sans Display"), local("ResistSansText-Regular"),
+        url("../fonts/ResistSansText-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ResistSansText-Regular.woff2") format("woff2"),
+        url("../fonts/ResistSansText-Regular.woff") format("woff"),
+        url("../fonts/ResistSansText-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Resist Sans Display";
+    src: url("../fonts/ResistSansText-Medium.eot");
+    src: local("Resist Sans Display Light"), local("ResistSansText-Light"),
+        url("../fonts/ResistSansText-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ResistSansText-Light.woff2") format("woff2"),
+        url("../fonts/ResistSansText-Light.woff") format("woff"),
+        url("../fonts/ResistSansText-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*=====  End of IMPORT FONT  ======*/
+
+/*------------------------------------*\
+    ALL INCLUDES 
+\*------------------------------------*/
+
+@import "base/reset";
+@import "libs/all";
+@import "base/all";
+@import "ui/all";

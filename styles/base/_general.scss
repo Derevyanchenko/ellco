@@ -1,0 +1,56 @@
+
+/*=============================================
+=                     BASE                   =
+=============================================*/
+
+:root {
+    --body-font-family: #{$resist};
+    --body-font-size: #{$fs-base};
+    --default-line-height: 120%;
+
+    --desktop-container-width: 1530px;
+
+    --section-spacing-desktop: 160px;
+    --section-spacing-tablet: 100px;
+    --section-spacing-mobile: 100px;
+
+    --main-text-color: #{$black};
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*----------  Body  ----------*/
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-weight: normal;
+    line-height: var(--default-line-height);
+}
+
+
+/*----------  Container  ----------*/
+.container {
+    @include respond-from(xxl) {
+        max-width: var(--desktop-container-width, 1170px);
+    }
+}
+
+
+/*----------  Spacing beetween sections  ----------*/
+.indent-bottom {
+    margin-bottom: var(--section-spacing-desktop);
+    @include break(lg) {
+        margin-bottom: var(--section-spacing-tablet);
+    }
+}
+
+.indent-top {
+    margin-top: var(--section-spacing-desktop);
+    @include break(lg) {
+        margin-top: var(--section-spacing-tablet);
+    }
+}
+

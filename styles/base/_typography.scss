@@ -1,0 +1,181 @@
+/*=============================================
+=                   HEADINGS                 =
+=============================================*/
+
+.headline {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: $fw-medium;
+    letter-spacing: -0.04em;
+}
+
+h2,
+.h2 {
+    font-size: 50px;
+    line-height: 110%;
+    font-weight: $fw-medium;
+    letter-spacing: -0.01em;
+}
+
+h3,
+.h3 {
+    font-weight: $fw-medium;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+h4,
+.h4 {
+    font-weight: $fw-medium;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+h5,
+.h5 {
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+}
+
+h6,
+.h6 {
+    font-weight: $fw-medium;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.headline.has-decor {
+    position: relative;
+    min-height: 40px;
+    padding-left: 23px;
+    border-left: 8px solid $blue;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 2px;
+        height: 100%;
+        width: 8px;
+        background: $blue;
+    }
+}
+
+/*=============================================
+=                   TEXT                     =
+=============================================*/
+
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &.text--icon-left {
+        display: flex;
+        svg {
+            margin-right: 10px;
+        }
+    }
+}
+
+.body-1 {
+    font-size: 24px;
+}
+
+.body-2 {
+    font-size: 20px;
+}
+
+.body-3 {
+    font-size: 18px;
+    font-weight: $fw-medium;
+}
+
+.body-4 {
+    font-size: 18px;
+    font-weight: $fw-light;
+}
+
+.body-5 {
+    font-size: 16px;
+    font-weight: $fw-medium;
+}
+
+.body-6 {
+    font-size: 16px;
+}
+
+.body-7 {
+    font-size: 14px;
+}
+
+.body-8 {
+    font-size: 14px;
+    font-weight: $fw-medium;
+}
+
+.body-9 {
+    font-size: 18px;
+}
+
+
+/*----------  Body fonts modificators  ----------*/
+.opacity-5 {
+    opacity: 0.5;
+}
+
+
+
+/*=============================================
+=                 Spacings                   =
+=============================================*/
+
+// margin bottom:
+
+.mx-12 {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.mb-2 {
+    margin-bottom: 2px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+// margin-top:
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}

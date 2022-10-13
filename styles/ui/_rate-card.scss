@@ -1,0 +1,91 @@
+/*=============================================
+=            Rate Card                        =
+=============================================*/
+.rate-card {
+    background-color: $light-grey;
+    padding: 30px;
+    position: relative;
+    min-height: 678px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+
+    &--featured {
+        background-color: $blue;
+        background-image: url('/img/rate-featured-bg.png');
+        color: $white;
+
+        // child items
+        .rate-params__item {
+            border-color: rgba(255, 255, 255, 0.1);
+            svg path {
+                fill: $white;
+            }
+        }
+
+        .list-item {
+            background: rgba(255, 255, 255, 0.2);
+            span {
+                color: $white;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.rate-card__title {
+    max-width: 257px;
+}
+
+.rate-card__sale-icon {
+    background: $green;
+    padding: 24px 12px 10px 12px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.rate-params__item {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/*----------  Rate Card - Bottom  ----------*/
+.card-price {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.old-price {
+    margin-right: 14px;
+    display: block;
+    line-height: var(--default-line-height);
+    font-size: 22px;
+    margin-bottom: -6px;
+} 
+
+.current-price {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    line-height: var(--default-line-height);
+}
+
+.currency {
+    display: block;
+    top: -10px;
+    font-size: 14px;
+    line-height: var(--default-line-height);
+    margin-left: 8px;
+}

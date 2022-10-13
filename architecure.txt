@@ -1,0 +1,12 @@
+- Components
+    - UI (buttons, heading, inputs)
+    - Blocks (card, rate, balance, form, AdvantageCard )
+    - Sections (header, footer, advantages )
+
+- Pages
+- Layouts
+
+------------------
+- hooks
+- Services (Api)
+----------------

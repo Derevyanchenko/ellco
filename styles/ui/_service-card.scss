@@ -1,0 +1,36 @@
+/*----------  Service Card  ----------*/
+
+.service-card {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #4B4B4B;
+    border-radius: 60px;
+    color: $white;
+    transition: all 0.3s;
+    cursor: pointer;
+    max-width: 440px;
+
+    &:hover {
+        border-color: transparent;
+    }
+}
+
+.service-card__img {
+    border-radius: 40px;
+    margin-bottom: 20px;
+    img {
+        border-radius: 40px;
+    }
+}
+
+.service-card__content {
+    padding: 0 10px;
+}
+
+.service-card__title {
+    margin-bottom: 14px;
+}
+
+.service-card__desc {
+    font-weight: $fw-light;
+    min-height: 44px;
+}

@@ -1,0 +1,42 @@
+/*----------  List items style  ----------*/
+
+.list-group {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-item {
+    color: $dark-blue;
+    background: $light-grey;
+    font-size: $fs-md;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+    padding: 12px 20px;
+
+
+    svg {
+        margin-right: 10px;
+    }
+
+    span {
+        opacity: 0.5;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    // modificators
+    &--size-sm {
+        padding: 10px 20px;
+        background: $grey;
+
+        &:not(:last-child) {
+            margin-bottom: 14px;
+        }
+    }
+}
