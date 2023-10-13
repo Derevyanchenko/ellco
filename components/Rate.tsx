@@ -55,7 +55,7 @@ const RateItem: FC<RateItemProps> = ({data, className }) => {
                         <del className="old-price color-sec-green">{ data.oldPrice }</del>
                     }
                     <p className="current-price">{ data.price }</p>
-                    <sup className="currency">руб./мес</sup>    
+                    <sup className="currency">curr./мес</sup>    
                 </div>
                 <div className="rate-card__controls">
                     <Button size="full" className="mb-5">Подключить</Button>
